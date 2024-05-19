@@ -12,7 +12,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding: 1rem;
+  padding: 0.2rem;
 }
 
 main{
@@ -27,6 +27,7 @@ footer{
   width: auto;
   left: 0;
   bottom: 0;
+  padding: 1rem;
 }
 
 body {
@@ -39,12 +40,8 @@ p {
   margin: 0.5rem;
 }
 
-.logo{
-  display: flex;
-}
-
-.logo_FF{
-  display: ;
+.logo-L{
+  width: 300px;
 }
 
 .icon{
@@ -99,12 +96,6 @@ a {
   padding: 1rem;
   border-radius: 2rem;
   transition: ;
-}
-
-.logo-title {
-  display: flex;
-  align-items: center;
-  font-size: 20px;
 }
 
 .container {
@@ -194,8 +185,15 @@ a {
   color: rgb(73, 73, 73);
   padding: 0.3rem;
 }
-
-
+.pag-f{
+  color: #2b2b2b;
+}
+.icons i{
+  color: #fff;
+}
+.pag-f{
+  color: #2b2b2b;
+}
 
 
 
@@ -299,8 +297,6 @@ a {
   }
   header {
     font-size: 10px;
-  }
-
   }
 
 }
