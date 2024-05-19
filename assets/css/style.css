@@ -117,9 +117,19 @@ a {
 
   display : flex;
   flex-direction : column;
-  box-shadow: 0 10px 20px rgba(236, 52, 206, 0.5);
   transition : 0.3s ease-in-out;
   border-radius : 15px;
+}
+
+#tank-b .container .card {
+  box-shadow: 0 10px 20px rgba(17, 0, 248, 0.5);
+}
+
+#healer-b .container .card {
+  box-shadow: 0 10px 20px rgba(2, 194, 76, 0.637);
+}
+#dps-b .container .card {
+  box-shadow: 0 10px 20px rgba(194, 2, 2, 0.637);
 }
 
 .container .card:hover {
@@ -172,6 +182,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 1rem;
 }
 
 .pag {
@@ -294,6 +305,7 @@ a {
     flex-wrap: wrap;
     grid-template-columns: repeat(4,1fr);
     gap: 10px;
+    width: 1600px;
   }
   header {
     font-size: 10px;
